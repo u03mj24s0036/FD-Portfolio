@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Mohan's personal portfolio — developer, creator, and lifelong learner.">
+<title>Mohan | Personal Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f5f1;--ink:#18231f;--muted:#66736d;--green:#b8ef73;--line:#dfe2da;--card:#fffefa;--dark:#18231f}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 48px));margin:auto}.nav{height:84px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-weight:800;font-size:20px;letter-spacing:-1px}.brand span{color:#78a936}.navlinks{display:flex;gap:30px;font-size:13px;color:var(--muted)}.navlinks a:hover{color:var(--ink)}.nav-cta{border:1px solid var(--ink);border-radius:99px;padding:11px 17px;font-size:12px;font-weight:700}.hero{padding:94px 0 76px;display:grid;grid-template-columns:1.4fr .6fr;gap:64px;align-items:center}.eyebrow,.mono{font:12px 'DM Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.eyebrow{display:flex;align-items:center;gap:9px}.dot{width:8px;height:8px;border-radius:50%;background:#87c743;box-shadow:0 0 0 4px #e6f3d8}.hero h1{font-size:clamp(54px,8vw,100px);letter-spacing:-.075em;line-height:.99;margin:28px 0 22px;font-weight:700}.hero h1 em{font-style:normal;color:#81947f}.intro{max-width:580px;font-size:17px;line-height:1.8;color:var(--muted)}.actions{display:flex;gap:12px;margin-top:32px}.button{padding:15px 20px;border-radius:99px;background:var(--ink);color:white;font-size:13px;font-weight:700;display:inline-flex;align-items:center;gap:10px}.button.light{background:transparent;color:var(--ink);border:1px solid var(--line)}.portrait{position:relative;justify-self:end;width:min(100%,320px);aspect-ratio: .82;border-radius:170px 170px 24px 24px;background:#dce8d0;overflow:hidden;display:grid;place-items:center}.portrait::before{content:'';position:absolute;width:230px;height:230px;border:1px solid #a9bd9e;border-radius:50%;top:38px}.avatar{font-size:104px;filter:grayscale(1);position:relative;z-index:1;margin-top:50px}.portrait-note{position:absolute;bottom:22px;z-index:1;font:11px 'DM Mono',monospace;letter-spacing:.07em;text-transform:uppercase;background:var(--card);padding:10px 13px;border-radius:99px}.ticker{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:20px 0;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:var(--muted);font:11px 'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em}.ticker span{display:flex;align-items:center;gap:10px}.ticker b{font-size:16px;color:#91a086}.section{padding:96px 0}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:40px;gap:25px}.section h2{font-size:clamp(36px,5vw,56px);letter-spacing:-.065em;margin:12px 0 0;line-height:1.05}.section-intro{max-width:370px;color:var(--muted);font-size:14px;line-height:1.8;margin:0}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px}.about-copy{font-size:16px;color:var(--muted);line-height:1.9}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fact{background:var(--card);border:1px solid var(--line);padding:20px;border-radius:14px}.fact .mono{font-size:10px}.fact strong{display:block;margin-top:10px;font-size:15px}.skills{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}.pill{border:1px solid var(--line);border-radius:99px;padding:10px 14px;font-size:12px;color:#4f5d54;background:rgba(255,255,255,.45)}.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.project{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--card)}.project-art{height:200px;padding:22px;display:flex;align-items:center;justify-content:center;background:#e6eddf}.project:nth-child(2) .project-art{background:#e8e2d8}.project:nth-child(3) .project-art{background:#dce7ec}.mock{width:90%;height:130px;border-radius:10px;background:#fffefa;box-shadow:0 12px 30px #28332c14;padding:12px;transform:rotate(-3deg)}.project:nth-child(2) .mock{transform:rotate(2deg)}.mockbar{height:8px;width:40%;border-radius:9px;background:#dce5d2;margin-bottom:12px}.mockline{height:5px;width:82%;border-radius:9px;background:#eceee9;margin:8px 0}.mockline.short{width:55%}.mockbox{height:48px;border-radius:6px;background:#c9e99e;margin-top:12px}.project:nth-child(2) .mockbox{background:#ead9c2}.project:nth-child(3) .mockbox{background:#b9d6e0}.project-info{padding:20px}.project-info .mono{font-size:10px}.project-info h3{font-size:18px;letter-spacing:-.03em;margin:11px 0 8px}.project-info p{font-size:12px;line-height:1.7;color:var(--muted);margin:0}.project-link{display:inline-block;margin-top:16px;font-size:12px;font-weight:700}.timeline{border-top:1px solid var(--line)}.job{display:grid;grid-template-columns:180px 1fr auto;gap:30px;padding:25px 0;border-bottom:1px solid var(--line);align-items:start}.job time,.job .company{font:11px 'DM Mono',monospace;text-transform:uppercase;color:var(--muted);letter-spacing:.04em}.job h3{font-size:17px;margin:0 0 7px}.job p{font-size:13px;color:var(--muted);line-height:1.7;margin:0;max-width:560px}.job .tag{font-size:11px;padding:7px 10px;border:1px solid var(--line);border-radius:99px;color:var(--muted)}.contact{background:var(--dark);color:#f6f5f1;border-radius:24px;padding:55px;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:end}.contact .eyebrow{color:#abb8ad}.contact h2{font-size:clamp(38px,6vw,68px);letter-spacing:-.07em;line-height:1;margin:18px 0}.contact p{color:#b9c3bb;max-width:460px;line-height:1.7;font-size:14px}.contact .button{background:var(--green);color:var(--ink);white-space:nowrap}.footer{display:flex;justify-content:space-between;gap:20px;padding:28px 0 36px;color:var(--muted);font:11px 'DM Mono',monospace}.social{display:flex;gap:18px}.social a:hover{color:var(--ink)}
+@media(max-width:760px){.wrap{width:min(100% - 32px,600px)}.nav{height:70px}.navlinks{display:none}.hero{padding:66px 0 54px;grid-template-columns:1fr;gap:36px}.hero h1{font-size:67px}.portrait{justify-self:start;width:220px;aspect-ratio:.95}.avatar{font-size:78px}.portrait::before{width:165px;height:165px}.ticker{justify-content:flex-start;gap:20px}.ticker span:nth-child(n+4){display:none}.section{padding:70px 0}.section-head{display:block}.section-intro{margin-top:18px}.about-grid{grid-template-columns:1fr;gap:26px}.projects{grid-template-columns:1fr}.project-art{height:190px}.job{grid-template-columns:1fr auto;gap:8px 16px}.job>div:nth-child(2){grid-column:1/-1;grid-row:2}.job .tag{grid-column:2;grid-row:1}.contact{padding:34px 25px;grid-template-columns:1fr}.contact .button{justify-self:start}.footer{flex-direction:column}.actions{flex-wrap:wrap}}
+</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mohan's personal portfolio">
+  <title>Mohan | Portfolio</title>
+  <style>
+    :root { color-scheme: light; --ink:#17231e; --muted:#66736d; --accent:#b8ef73; --paper:#f6f5f1; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial, sans-serif; background:var(--paper); color:var(--ink); }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1000px, calc(100% - 40px)); margin:auto; }
+    header { height:76px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #dfe2da; }
+    .logo { font-weight:800; font-size:22px; }
+    nav { display:flex; gap:24px; color:var(--muted); font-size:14px; }
+    .hero { min-height:520px; display:flex; flex-direction:column; justify-content:center; padding:75px 0; }
+    .tag { color:var(--muted); text-transform:uppercase; letter-spacing:.12em; font-size:12px; }
+    h1 { font-size:clamp(58px, 12vw, 112px); letter-spacing:-.08em; line-height:.95; margin:22px 0; }
+    h1 span { color:#80947e; }
+    .intro { max-width:580px; color:var(--muted); line-height:1.8; font-size:18px; }
+    .buttons { display:flex; gap:12px; margin-top:22px; flex-wrap:wrap; }
+    .button { display:inline-block; padding:14px 19px; border-radius:30px; background:var(--ink); color:white; font-weight:bold; font-size:14px; }
+    .button.alt { color:var(--ink); background:transparent; border:1px solid #ccd2c8; }
+    section { padding:65px 0; border-top:1px solid #dfe2da; }
+    h2 { font-size:38px; letter-spacing:-.05em; margin:10px 0 20px; }
+    .copy { color:var(--muted); line-height:1.8; max-width:700px; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:25px; }
+    .card { background:#fffefa; border:1px solid #e2e4dd; border-radius:14px; padding:22px; min-height:140px; }
+    .card h3 { margin:0 0 10px; }
+    .card p { color:var(--muted); line-height:1.6; font-size:14px; margin:0; }
+    .contact { background:#17231e; color:white; padding:38px; border-radius:18px; }
+    .contact p { color:#c1cbc2; }
+    footer { padding:25px 0; color:var(--muted); font-size:13px; display:flex; justify-content:space-between; gap:12px; }
+    @media(max-width:650px) { nav { gap:12px; font-size:12px; } .cards { grid-template-columns:1fr; } h2 { font-size:32px; } .contact { padding:26px; } footer { flex-direction:column; } }
+  </style>
+</head>
+<body>
+<header class="wrap nav"><a class="brand" href="#top">mohan<span>.</span></a><nav class="navlinks"><a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav><a class="nav-cta" href="#contact">Let’s talk ↗</a></header>
+<main id="top">
+<section class="wrap hero"><div><div class="eyebrow"><i class="dot"></i> Available for opportunities</div><h1>Hi, I’m<br><em>Mohan.</em></h1><p class="intro">I’m a curious <strong>web developer and creative problem-solver</strong> who enjoys turning thoughtful ideas into useful, easy-to-use digital experiences.</p><div class="actions"><a class="button" href="#work">Explore my work <span>↘</span></a><a class="button light" href="#about">A little about me</a></div></div><div class="portrait" aria-label="Portrait placeholder"><div class="avatar">👨🏻‍💻</div><div class="portrait-note">Curious by nature · 2026</div></div></section>
+<div class="wrap ticker"><span><b>✳</b> Thoughtful design</span><span><b>✳</b> Clean code</span><span><b>✳</b> Lifelong learning</span><span><b>✳</b> Made with care</span></div>
+<section class="wrap section" id="about"><div class="section-head"><div><div class="eyebrow">01 / A bit about me</div><h2>People first.<br>Pixels second.</h2></div><p class="section-intro">A little more about who I am, what I value, and how I like to work.</p></div><div class="about-grid"><div class="about-copy"><p>Hello! I’m Mohan, a motivated developer who likes making the web feel simpler and more human. I enjoy working across the whole process—from understanding a problem and sketching ideas to building, refining, and shipping the final result.</p><p>I’m at my best on teams that share ideas openly, care about the details, and keep learning together. Outside of work, you’ll often find me exploring new technology, listening to music, or spending time with family and friends.</p><div class="skills"><span class="pill">HTML & CSS</span><span class="pill">JavaScript</span><span class="pill">React</span><span class="pill">Responsive design</span><span class="pill">UI thinking</span><span class="pill">Teamwork</span></div></div><div class="facts"><div class="fact"><span class="mono">Based in</span><strong>Bangalore, India</strong></div><div class="fact"><span class="mono">Focus</span><strong>Web development</strong></div><div class="fact"><span class="mono">Approach</span><strong>Curious & thoughtful</strong></div><div class="fact"><span class="mono">Currently</span><strong>Learning every day</strong></div></div></div></section>
+<section class="wrap section" id="work"><div class="section-head"><div><div class="eyebrow">02 / Selected work</div><h2>Things I’ve<br>worked on.</h2></div><p class="section-intro">A few sample projects to show the kinds of problems I like solving. Replace these with your own work.</p></div><div class="projects"><article class="project"><div class="project-art"><div class="mock"><div class="mockbar"></div><div class="mockline"></div><div class="mockline short"></div><div class="mockbox"></div></div></div><div class="project-info"><span class="mono">01 — Web design</span><h3>Everyday Finance</h3><p>A clear, friendly dashboard concept that helps people understand their spending and build better habits.</p><a class="project-link" href="#contact">Project details ↗</a></div></article><article class="project"><div class="project-art"><div class="mock"><div class="mockbar"></div><div class="mockline"></div><div class="mockline short"></div><div class="mockbox"></div></div></div><div class="project-info"><span class="mono">02 — E-commerce</span><h3>Good Ground Coffee</h3><p>A warm online storefront concept for an independent coffee roaster, designed to make discovery simple.</p><a class="project-link" href="#contact">**Personal Portfolio Website**  
+Created a simple website to introduce myself, share my skills and projects, and provide contact information. Built with HTML and CSS. ↗</a></div></article><article class="project"><div class="project-art"><div class="mock"><div class="mockbar"></div><div class="mockline"></div><div class="mockline short"></div><div class="mockbox"></div></div></div><div class="project-info"><span class="mono">03 — Web app</span><h3>Focus Garden</h3><p>A small productivity app concept that turns focused work sessions into a calm daily ritual.</p><a class="project-link" href="#contact">Project details ↗</a></div></article></div></section>
+<section class="wrap section" id="experience"><div class="section-head"><div><div class="eyebrow">03 / The journey</div><h2>Experience &<br>education.</h2></div><p class="section-intro">Use this timeline for your real roles, studies, internships, or personal milestones.</p></div><div class="timeline"><article class="job"><time>2024 — Present</time><div><h3>Web Developer <span class="company">· Freelance / **Personal Projects:** Student Record Management System, Library Management System, and a personal portfolio website. These projects helped me practice programming, database management, and web development.</span></h3><p>Build responsive websites and interfaces, strengthen front-end skills, and turn project ideas into polished experiences.</p></div><span class="tag">Development</span></article><article class="job"><time>2022 — 2024</time><div><h3>Student <span class="company">· Your college / course</span></h3><p>Studied foundational concepts, collaborated on coursework, and developed an interest in technology and digital products.</p></div><span class="tag">Education</span></article><article class="job"><time>2021 — 2022</time><div><h3>Learning & exploring <span class="company">· Independent</span></h3><p>Started learning web technologies and practicing by building small projects and experimenting with new ideas.</p></div><span class="tag">Growth</span></article></div></section>
+<section class="wrap" id="contact"><div class="contact"><div><div class="eyebrow">04 / Your next project</div><h2>Have a good<br>one in mind?</h2><p>I’m always happy to meet thoughtful people and hear about interesting ideas. Send me a note and let’s see what we can make.</p></div><a class="button" href="mailto:mohan@example.com">mohan@example.com ↗</a></div></section>
+</main><footer class="wrap footer"><span>© 2026 Mohan · Made with care</span><div class="social"><a href="#contact">LinkedIn ↗</a><a href="#contact">GitHub ↗</a><a href="#top">Back to top ↑</a></div></footer>
+</body></html>
+  <header class="wrap">
+    <a class="logo" href="#home">Mohan<span style="color:#83b94b">.</span></a>
+    <nav aria-label="Main navigation"><a href="#about">About</a><a href="#work">Work</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main>
+    <div class="wrap hero" id="home">
+      <div class="tag">Personal portfolio</div>
+      <h1>Hello, I’m<br><span>Mohan.</span></h1>
+      <p class="intro">Welcome to my portfolio! I’m Mohan, a curious and motivated person who enjoys learning, creating, and taking on new challenges. I care about growing my skills, solving problems, and contributing to meaningful projects..</p>
+      <div class="buttons"><a class="button" href="#work">View my work ↓</a><a class="button alt" href="#contact">Contact me</a></div>
+    </div>
+    <section id="about"><div class="wrap">
+      <div class="tag">01 / About</div><h2>I’m Mohan, a dedicated learner eager to grow and contribute.</h2>
+      <p class="copy">I’m Mohan, a curious and motivated person who enjoys learning new things and taking on challenges. I’m interested in technology, creativity, and finding practical ways to solve problems. My strengths include dedication, adaptability, and a willingness to keep improving. I’m looking for opportunities to grow, contribute to meaningful projects, and work with people who enjoy sharing ideas..</p>
+    </div></section>
+    <section id="work"><div class="wrap">
+      <div class="tag">02 / Work</div><h2>Projects and experience</h2>
+      <p class="copy">Here are some basic examples you can use as a starting point. Keep only the ones that are true for you:
+
+- **Projects:** Created a simple personal portfolio webpage using HTML and CSS.
+- **Work experience:** learning, internship, volunteer work, or helping role you’ve had.
+- **Education:** S,V,P high school,S V R F G colllege, current studying BCA.
+- **Skills:** Communication, teamwork, problem-solving, and willingness to learn.
+- **Achievement:**Building my career for job,developing programming skills..</p>
+      <div class="cards">
+        <article class="card"><h3>Project One</h3><p>designed and developeda personal portfolio of my profile,education,technical skills,and project.</p></article>
+        <article class="card"><h3>Project Two</h3><p>**Personal Portfolio Website**  
+Created a simple website to introduce myself, share my skills and projects, and provide contact information. Built with HTML and CSS..</p></article>
+        <article class="card"><h3>Skills</h3><p>**Skills:** HTML, CSS, basic Java, C programming, MySQL, communication, teamwork, and problem-solving. My areas of interest include web development and database management..</p></article>
+      </div>
+    </div></section>
+    <section id="contact"><div class="wrap contact">
+      <div class="tag">03 / Contact</div><h2>Let’s connect</h2>
+      <p>Replace this with your preferred contact details or social profile links.</p>
+      <a class="button" style="background:var(--accent);color:var(--ink)" href="mailto:your-email@example.com">tnmohan688@gmial.com↗</a>
+    </div></section>
+  </main>
+  <footer class="wrap"><span>© 2026 Mohan</span><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
